@@ -1,9 +1,9 @@
 clear
-print "Downloading.."
+echo "Downloading.."
 cd ~
 git.exe clone https://github.com/myferr/verifyme-website/
 clear
-print "Download complete..."
+echo "Download complete..."
 
 cd ~/verifyme-website/src
 npm install
