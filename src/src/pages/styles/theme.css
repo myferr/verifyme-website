@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+
+* {
+  /* Colors */
+  --bgMain: #1c1c1d;
+  --textMain: #ffffff;
+  --blue: rgb(53, 124, 255);
+  /* Fonts */
+  --mainFont: "Montserrat", sans-serif;
+  --monoFont: "Space Mono", monospace, sans-serif;
+}
+
+.mobile-buttons {
+  display: none;
+}

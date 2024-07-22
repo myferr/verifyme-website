@@ -1,0 +1,18 @@
+@import url('../../styles/theme.css');
+
+#btn {
+    background-color:#2c2c2d;
+    color: var(--textMain);
+    border-radius: 6px;
+    padding:13px 10px;
+    border: none;
+    font-weight:500;
+    margin-right:15px;
+    font-family: var(--mainFont);
+    transition: ease all 0.3s;
+}
+
+#btn:hover {
+    cursor: pointer;
+    transform:translateY(-5px);
+}

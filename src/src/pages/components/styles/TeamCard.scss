@@ -1,0 +1,47 @@
+// The `TeamCard()` component is located in the root of the pages directory
+// in the `Team.tsx` file as a function.
+// Not located in the `components` directory.
+
+#team-card-container {
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+  #team-card {
+    transition: ease all 0.3s;
+    background: #161616;
+    border-radius: 20px;
+    padding: 25px 20px 10px 20px;
+    width: 200px;
+    .team-person-image {
+      width: 100px;
+      border-radius: 100px;
+    }
+    .team-person-title {
+      color: rgba(255, 255, 255, 0.3);
+      font-weight: 600;
+      font-size: 15px;
+      background-color: #2b2b2c;
+      border-radius: 10px;
+      padding: 2px;
+    }
+    .team-person-title::before,
+    .team-person-name::after {
+      transform: translateY(0px);
+    }
+    .team-person-descr {
+      margin-top: 50px;
+    }
+  }
+  #team-card:hover {
+    transform: translateY(-10px);
+    background-color: #181818;
+    .team-person-name {
+      transition: ease all 0.5s;
+      transform: translateY(-5px);
+      color: #ccc;
+      opacity: 0.5;
+    }
+  }
+}

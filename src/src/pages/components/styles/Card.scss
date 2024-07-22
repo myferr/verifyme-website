@@ -1,0 +1,54 @@
+// The `Card()` component is located in the root of the pages directory
+// in the `Premium.tsx` file as a function.
+// Not located in the `components` directory.
+
+.premium-header {
+  background: #ffffff;
+  background: linear-gradient(to right, #ffffff 0%, #fff48f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#card {
+  background: hsla(219, 37%, 39%, 1);
+
+  background: linear-gradient(
+    250deg,
+    rgba(63, 88, 136, 0.335) 0%,
+    hsla(240, 11%, 7%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    250deg,
+    rgba(63, 88, 136, 0.335) 0%,
+    hsla(240, 11%, 7%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    250deg,
+    rgba(63, 88, 136, 0.335) 0%,
+    hsla(240, 11%, 7%, 1) 100%
+  );
+  padding: 25px;
+  border-radius: 15px;
+  width: 200px;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature {
+  position: relative;
+  bottom: 3px;
+  padding: 10px;
+}
+
+#pricing {
+  font-weight: 400;
+  font-family: var(--mainFont);
+  font-size: 12px;
+}

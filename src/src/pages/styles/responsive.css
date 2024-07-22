@@ -1,0 +1,49 @@
+#mobileheader-container {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-buttons {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #mobileheader-container,
+  #mobileheader {
+    display: block !important;
+  }
+  .mobile-navigator-container {
+    display: none;
+  }
+  #desktopheader {
+    display: none;
+  }
+
+  #mobile {
+    display: block !important;
+  }
+  #desktop {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1000vw) {
+  #mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .btn {
+    display: none;
+  }
+  .desc-forgif {
+    margin: 0px 0px;
+    position: static !important;
+  }
+
+  .gif {
+    display: none;
+  }
+}
