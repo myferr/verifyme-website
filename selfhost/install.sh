@@ -6,7 +6,6 @@ clear
 echo "Download complete..."
 
 cd verifyme-website/src
-sleep 1
 npm install
 clear
 npm run dev -- --open
