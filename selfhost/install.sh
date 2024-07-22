@@ -1,7 +1,7 @@
 clear
 echo "Downloading.."
 cd ~
-git.exe clone https://github.com/myferr/verifyme-website/
+git clone https://github.com/myferr/verifyme-website/
 clear
 echo "Download complete..."
 
