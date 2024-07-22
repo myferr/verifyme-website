@@ -2,9 +2,13 @@
 SvelteKit, TypeScript and Sass
 
 <img src="https://skillicons.dev/icons?i=react,ts,scss">
+
 * React: frontend framework
+
 * TypeScript: scripting and backend
+
 * Sass: styling
+
 # Self-host
 To run this website on your system make sure you have [npm](https://npmjs.org) installed on your computer.
 Self host the website on your local system using the following command:
