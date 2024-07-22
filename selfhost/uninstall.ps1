@@ -1,2 +1,2 @@
 clear
-del -Force /Users/$Env:UserName/verifyme-website/
+Remove-Item /Users/$Env:UserName/verifyme-website/
